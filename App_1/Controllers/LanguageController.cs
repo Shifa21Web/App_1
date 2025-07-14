@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace App_1.Controllers
 {
@@ -28,11 +29,41 @@ namespace App_1.Controllers
 
 
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public  async Task<IActionResult> getcurrencybyidAsync([FromRoute] int id)
         {
-            var sys = _context.Language.FindAsync(id);
+            var sys =await  _context.Language.FindAsync(id);
             return Ok(sys);
+        }
+
+
+        [HttpGet("{name}")]
+        public async Task<IActionResult> getcurrencybyNameAsync([FromRoute] string name)
+        {
+            var sys = await _context.Language.Where(x=>x.Title == name).FirstOrDefaultAsync();
+            return Ok(sys);
+        }
+
+
+
+        [HttpPost("All")]
+        public async Task<IActionResult> getcurrencybyAllAsync([FromBody] List<int> ids)
+        {
+            //var ids = new List<int> { 1 };
+            var sys = await _context.Language.Where(x=>ids.Contains(x.Id)).
+                ToListAsync();
+            return Ok(sys);
+        }
+
+
+        [HttpPost("bOOKS")]
+        public async Task<IActionResult> AddNewBook([FromBody] Book model)
+        {
+
+           // model.Title = "Good Habit";
+            _context.Book.Add(model);
+            await _context.SaveChangesAsync();
+            return Ok(model);
         }
 
     }
