@@ -1,0 +1,209 @@
+{
+    "employees": [
+        {
+            "employeeId": 11,
+            "departmentId": 8,
+            "weeks": [
+                {
+                    "weekNumber": 0,
+                    "weekStartDate": "2026-02-02",
+                    "weekEndDate": "2026-02-08",
+                    "dailyAllocations": [
+                        {
+                            "date": "2026-02-02",
+                            "projectAllocations": [
+                                {
+                                    "projectId": 8245,
+                                    "percentage": 100
+                                }
+                            ],
+                            "totalPercentage": 100,
+                            "idlePercentage": 0
+                        },
+                        {
+                            "date": "2026-02-03",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-04",
+                            "projectAllocations": [
+                                {
+                                    "projectId": 7226,
+                                    "percentage": 30
+                                }
+                            ],
+                            "totalPercentage": 30,
+                            "idlePercentage": 70
+                        },
+                        {
+                            "date": "2026-02-05",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-06",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-07",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-08",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        }
+                    ],
+                    "weeklyTotal": 19,
+                    "isComplete": false
+                }
+            ],
+            "overallTotal": 19,
+            "overallComplete": false
+        },
+        {
+            "employeeId": 13,
+            "departmentId": 8,
+            "weeks": [
+                {
+                    "weekNumber": 0,
+                    "weekStartDate": "2026-02-02",
+                    "weekEndDate": "2026-02-08",
+                    "dailyAllocations": [
+                        {
+                            "date": "2026-02-02",
+                            "projectAllocations": [
+                                {
+                                    "projectId": 8242,
+                                    "percentage": 100
+                                }
+                            ],
+                            "totalPercentage": 100,
+                            "idlePercentage": 0
+                        },
+                        {
+                            "date": "2026-02-03",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-04",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-05",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-06",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-07",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-08",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        }
+                    ],
+                    "weeklyTotal": 14,
+                    "isComplete": false
+                }
+            ],
+            "overallTotal": 14,
+            "overallComplete": false
+        },
+        {
+            "employeeId": 20,
+            "departmentId": 8,
+            "weeks": [
+                {
+                    "weekNumber": 0,
+                    "weekStartDate": "2026-02-02",
+                    "weekEndDate": "2026-02-08",
+                    "dailyAllocations": [
+                        {
+                            "date": "2026-02-02",
+                            "projectAllocations": [
+                                {
+                                    "projectId": 8241,
+                                    "percentage": 34
+                                },
+                                {
+                                    "projectId": 7241,
+                                    "percentage": 33
+                                },
+                                {
+                                    "projectId": 7240,
+                                    "percentage": 33
+                                }
+                            ],
+                            "totalPercentage": 100,
+                            "idlePercentage": 0
+                        },
+                        {
+                            "date": "2026-02-03",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-04",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-05",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-06",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-07",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        },
+                        {
+                            "date": "2026-02-08",
+                            "projectAllocations": [],
+                            "totalPercentage": 0,
+                            "idlePercentage": 100
+                        }
+                    ],
+                    "weeklyTotal": 14,
+                    "isComplete": false
+                }
+            ],
+            "overallTotal": 14,
+            "overallComplete": false
+        }
+    ]
+}
